@@ -1,0 +1,15 @@
+# QA Environment Configuration
+# Overrides default values for QA environment
+
+# Application URLs - Point to QA server
+base:
+  url: https://the-internet.herokuapp.com/login
+
+# Browser Configuration
+browser: chrome
+headless: true   # Headless for CI pipeline
+
+# Standard timeouts
+timeout:
+  explicit: 15
+  pageLoad: 30

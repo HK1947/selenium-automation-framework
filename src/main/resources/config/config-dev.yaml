@@ -1,0 +1,15 @@
+# Development Environment Configuration
+# Overrides default values for dev environment
+
+# Application URLs
+base:
+  url: https://the-internet.herokuapp.com/login
+
+# Browser Configuration - visible browser for debugging
+browser: chrome
+headless: false
+
+# Longer timeouts for debugging
+timeout:
+  explicit: 20
+  pageLoad: 45

@@ -1,0 +1,31 @@
+# Default Configuration
+# This file contains common settings used across all environments
+
+# Browser Configuration
+browser: chrome
+headless: false
+
+# Application URLs
+base:
+  url: https://the-internet.herokuapp.com/login
+
+# Timeout Settings (in seconds)
+timeout:
+  implicit: 0        # Using explicit waits, so keep at 0
+  pageLoad: 30
+  explicit: 15
+
+# Login Test Data (defaults - override in env-specific configs)
+login:
+  valid:
+    username: tomsmith
+    password: SuperSecretPassword!
+
+# Screenshot Settings
+screenshot:
+  enabled: true
+  directory: target/screenshots
+
+# Logging Settings
+logging:
+  level: INFO

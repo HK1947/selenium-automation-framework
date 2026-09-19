@@ -25,7 +25,7 @@
         <webdrivermanager.version>5.7.0</webdrivermanager.version>
         <log4j.version>2.23.0</log4j.version>
         <extentreports.version>5.1.1</extentreports.version>
-        <jackson.version>2.16.1</jackson.version>
+        <jackson.version>2.18.9</jackson.version>
         <lombok.version>1.18.30</lombok.version>
 
         <!-- Plugin Versions -->

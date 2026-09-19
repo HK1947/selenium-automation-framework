@@ -1,3 +1,5 @@
+![Java CI](https://github.com/HK1947/selenium-automation-framework/actions/workflows/ci.yml/badge.svg)
+
 # Selenium Automation Framework
 
 A production-ready Selenium WebDriver automation framework built with Java, following industry best practices and design patterns.
